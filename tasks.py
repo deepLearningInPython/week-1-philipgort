@@ -42,13 +42,6 @@ def ReLu(arr, cutoff=0):
             result[value] = arr[value]
     
     return result
-
-test_array = np.array([-3, -1, 0, 2, 4])
-test = ReLu(test_array)
-fail_array = [-3, -1, 0, 2, 4]
-fail = ReLu(fail_array)
-print(test)
-print(fail)
 # -----------------------------------------------
 
 
